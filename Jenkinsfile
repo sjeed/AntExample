@@ -3,7 +3,7 @@ pipeline {
   stages {
     stage('StaticCode') {
       steps {
-        git(url: 'https://github.com/mitesh51/AntExample', branch: 'master')
+        git(url: 'https://github.com/sjeed/AntExample', branch: 'master')
       }
     }
   }
